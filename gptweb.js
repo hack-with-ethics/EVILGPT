@@ -1,6 +1,6 @@
 function getKeys(){
-  let key = "hf_ajSpklywQvQjVChtZV"
-  let key2 = "xISDNguwpiFQXQSc"
+  let key = "hf_JSohQLNTfaUqHsXtxhXgbh"
+  let key2 = "VlPuGfQpOIxY"
   return key+key2
 }
 async function askGPT(params) {
@@ -54,4 +54,5 @@ async function RunGpt() {
       }
 
 }
+
 
