@@ -8,7 +8,7 @@ async function askGPT(params) {
   const response = await fetch("https://router.huggingface.co/v1/chat/completions", {
     method: "POST",
     headers: {
-      "Authorization": "Bearer "+key,  // ❌ DANGER
+      "Authorization": `Bearer ${key}`,
       "Content-Type": "application/json"
     },
     body: JSON.stringify({
@@ -54,5 +54,6 @@ async function RunGpt() {
       }
 
 }
+
 
 
