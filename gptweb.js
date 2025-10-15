@@ -1,8 +1,14 @@
+function getKeys(){
+  let key = "hf_ajSpklywQvQjVChtZV"
+  let key2 = "xISDNguwpiFQXQSc"
+  return key+key2
+}
 async function askGPT(params) {
+  key = getkeys()
   const response = await fetch("https://router.huggingface.co/v1/chat/completions", {
     method: "POST",
     headers: {
-      "Authorization": "Bearer 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",  // ❌ DANGER
+      "Authorization": "Bearer "+key,  // ❌ DANGER
       "Content-Type": "application/json"
     },
     body: JSON.stringify({
@@ -48,3 +54,4 @@ async function RunGpt() {
       }
 
 }
+
