@@ -1,10 +1,10 @@
-function getKeys(){
+async function getKeys(){
   let key = "hf_JSohQLNTfaUqHsXtxhXgbh"
   let key2 = "VlPuGfQpOIxY"
-  return key+key2
+  return key + key2
 }
 async function askGPT(params) {
-  key = getkeys()
+  key = await getkeys()
   const response = await fetch("https://router.huggingface.co/v1/chat/completions", {
     method: "POST",
     headers: {
@@ -54,6 +54,7 @@ async function RunGpt() {
       }
 
 }
+
 
 
 
