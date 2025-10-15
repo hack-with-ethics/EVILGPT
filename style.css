@@ -1,0 +1,65 @@
+*{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+    
+}
+input {
+  padding: 10px;   /* ✅ use semicolon, not comma */
+  font-size: 16px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  width: 280px;
+  margin-top: 10px;
+  
+}
+button{
+    margin-top: 15px;
+    width: 120px;
+    font-weight: bolder;
+    background-color: black;
+    color: whitesmoke;
+    padding: 12px;
+    border-radius: 20px;
+    border: none;
+    opacity: 0.9;
+}
+input:active{
+    border: none;
+
+}
+#disp{
+    width: 800px;
+    border-radius: 20px;
+    background-color: #ccc;
+    color: black;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 25px;
+
+}
+
+#inputsec{
+    border-radius: 20px;
+    padding: 30px;
+    border:none;
+    text-align: center;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+
+    box-shadow: 0px 0px 20px rgba(0,0,0,0.2);
+}
+button:hover{
+    box-shadow: 0px 0px 15px rgba(0,0,0,0.2);
+    opacity: 1;
+}
+#Header{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 350px;
+    border:1px solid;
+    margin-bottom: 50px;
+    border-radius: 20px;
+    padding:5px
+
+}
