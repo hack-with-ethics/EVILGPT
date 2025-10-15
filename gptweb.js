@@ -2,7 +2,7 @@ async function askGPT(params) {
   const response = await fetch("https://router.huggingface.co/v1/chat/completions", {
     method: "POST",
     headers: {
-      "Authorization": "Bearer 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",  // ❌ DANGER
+      "Authorization": "Bearer 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",  // ❌ DANGER
       "Content-Type": "application/json"
     },
     body: JSON.stringify({
@@ -46,4 +46,5 @@ async function RunGpt() {
           await new Promise(resolve => setTimeout(resolve, 400));
         }
       }
+
 }
